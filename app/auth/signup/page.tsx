@@ -5,7 +5,7 @@ import React from "react";
 const SignupPage = () => {
   return (
     <div className="w-full container h-[calc(100dvh-70px)] flex items-center justify-center">
-      <div className="flex items-center w-[300px] h-[400px] md:w-[600px] md:h-[450px] shadow-lg">
+      <div className="card-wrapper">
         {/* Image */}
         <div className="hidden md:block md:w-1/2 h-full relative ">
           <Image

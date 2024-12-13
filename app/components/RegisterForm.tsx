@@ -5,20 +5,17 @@ import { registerUser } from "../actions";
 
 const RegisterForm = () => {
   return (
-    <form
-      action={registerUser}
-      className="w-full md:w-1/2 flex flex-col h-full  justify-start p-4 gap-4 bg-zinc-100/60"
-    >
+    <form action={registerUser} className="form">
       <Input
-        label="آدرس ایمیل"
-        name="email"
-        placeholder="example@gmail.com"
-        type="email"
+        label="تفلن همراه"
+        name="phoneNumber"
+        placeholder="09334055539"
+        type="text"
       />
       <Input
-        label="نام کاربری"
-        name="username"
-        placeholder="mohammad hosein"
+        label="کد دانشجویی"
+        name="studentUid"
+        placeholder="40057741054019"
         type="text"
       />
       <Input

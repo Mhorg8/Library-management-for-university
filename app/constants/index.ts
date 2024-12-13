@@ -1,10 +1,10 @@
 import { feature, NavLink } from "../types/types";
 
 export const MenuLinks: NavLink[] = [
-  { id: 1, title: "لیست کتاب ها", path: "/members" },
+  { id: 1, title: "لیست کتاب ها", path: "/books" },
   { id: 2, title: "لیست اعضا", path: "/members" },
-  { id: 3, title: "افزودن کتاب", path: "/members" },
-  { id: 4, title: "افزودن عضو جدید", path: "/members" },
+  { id: 3, title: "افزودن کتاب", path: "/newBook" },
+  { id: 4, title: "افزودن عضو جدید", path: "/newMember" },
 ];
 
 export const features: feature[] = [
