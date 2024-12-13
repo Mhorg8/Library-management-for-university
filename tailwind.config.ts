@@ -7,10 +7,23 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "2rem",
+        sm: "2rem",
+        md: "4rem",
+      },
+    },
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        softGray: "#e7ecef",
+        black: "#040404",
+        darkGray: "#8b8c89",
+        primaryColor: "#274c77",
+        lightBlue: "#6096ba",
+        darkBlue: "#13505b",
+        success: "#7ebc89",
       },
     },
   },
