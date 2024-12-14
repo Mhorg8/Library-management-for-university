@@ -5,6 +5,7 @@ export interface NavLink {
 }
 
 export interface feature {
+  id: number;
   title: string;
   text: string;
 }

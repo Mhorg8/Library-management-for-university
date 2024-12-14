@@ -1,6 +1,6 @@
 import Input from "@/app/components/Input";
 import Image from "next/image";
-import libaryImage from "@/public/libary-1.jpg";
+import libaryImage from "@/public/library-3.jpg";
 import PrimaryButton from "@/app/components/PrimaryButton";
 
 const NewMemberPage = () => {
@@ -43,7 +43,7 @@ const NewMemberPage = () => {
           />
 
           <PrimaryButton
-            text="ثبت"
+            text="افزودن"
             type="submit"
             customStyle="py-3 mt-5 active:bg-success hover:bg-success transition duration-200 "
           />

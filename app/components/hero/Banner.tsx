@@ -14,7 +14,7 @@ const Banner = () => {
           className="object-cover"
         />
       </div>
-      <div className="w-full md:w-1/3 flex flex-col items-center justify-start h-full p-10 order-1 md:order-2">
+      <div className="w-full md:w-1/3 flex flex-col items-center justify-center h-full p-10 order-1 md:order-2">
         <h1 className="text-4xl font-bold text-center">
           هر کتابی که نیاز داشته باشی <br />
           اینجا هست.
