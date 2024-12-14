@@ -1,4 +1,4 @@
-import client from "@/app/lib/prisma";
+import client from "@/lib/prisma";
 import { User } from "@/app/types/types";
 import { NextRequest, NextResponse } from "next/server";
 import bcrypt from "bcryptjs";

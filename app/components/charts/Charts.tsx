@@ -8,16 +8,16 @@ const Charts = () => {
   const chartsVariants = {
     initial: {
       opacity: 0,
-      y: 100,
+      x: 100,
     },
     animate: {
       opacity: 1,
-      y: 0,
+      x: 0,
     },
   };
   return (
-    <div className="w-full container ">
-      <h2 className="text-3xl md:text-4xl text-primaryColor font-bold mt-20 mb-10">
+    <div className="w-full container bg-neutral-100 mt-20 py-10">
+      <h2 className="text-3xl md:text-4xl text-primaryColor font-bold  mb-10">
         آمار سایت
       </h2>
 

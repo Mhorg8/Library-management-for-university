@@ -58,7 +58,7 @@ const PrimaryButton = ({
       style={{
         backgroundColor: bgColor ? bgColor : "",
       }}
-      className={`primary-btn ${customStyle}`}
+    className={`primary-btn ${customStyle}`}
     >
       <span
         className="font-semibold"

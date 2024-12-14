@@ -3,20 +3,25 @@
 import * as React from "react";
 import { Label, Pie, PieChart } from "recharts";
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/app/components/ui/card";
 import {
   ChartConfig,
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@/components/ui/chart";
+} from "@/app/components/ui/chart";
 const chartData = [
   { status: "فعال", users: 275, fill: "var(--color-chrome)" },
   { status: "غیرفعال", users: 200, fill: "var(--color-safari)" },
 ];
 
 const chartConfig = {
-  visitors: {
+  users: {
     label: "کاربران",
   },
   chrome: {
@@ -35,7 +40,7 @@ export function UsersChart() {
   }, []);
 
   return (
-    <Card className="flex flex-col border-none">
+    <Card className="flex flex-col border-none bg-transparent shadow-none">
       <CardHeader className="items-center pb-0">
         <CardTitle>وضعیت کاربران</CardTitle>
       </CardHeader>

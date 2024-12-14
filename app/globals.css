@@ -48,6 +48,15 @@
   .member__item-title {
     @apply text-sm font-semibold;
   }
+  .book__card-box {
+    @apply flex  items-center justify-between;
+  }
+  .book__card-title {
+    @apply text-lg;
+  }
+  .book__card-text {
+    @apply text-sm font-bold;
+  }
 }
 
 @layer base {
