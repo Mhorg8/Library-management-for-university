@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/header/Header";
 import { Toaster } from "./components/ui/toaster";
+import Footer from "./components/footer/Footer";
 
 const rokhFont = localFont({
   src: [
@@ -45,6 +46,7 @@ export default function RootLayout({
         <Header />
         <Toaster />
         {children}
+        <Footer />
       </body>
     </html>
   );
