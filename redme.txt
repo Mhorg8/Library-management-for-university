@@ -1,0 +1,23 @@
+1- Api for fetching data {Book , User} with a single Query  S => S for searching parameter
+
+Book properties = {
+    id : string ,  between 4 - 12 character;
+    Name : string , should be unique;
+    AuthorName  : string ;
+    Category : string ;
+    Stock : number , for displaying how many book are ready ;
+    Publication : string , Year of publication ;
+}
+
+User properties = {
+    id : string ,  between 4 - 12 character and this well be hash in backend;
+    PhoneNumber : string , should be unique;
+    FirstName  : string ;
+    LastName : string  ;
+    Password : string ;
+}
+
+2- a api route for adding book and user
+
+
+3- a api for adding book to user profile => u should use book Id or book name to setting book to user profile with user id

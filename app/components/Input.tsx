@@ -1,7 +1,7 @@
 import React, { forwardRef } from "react";
 
 type Props = {
-  type: "email" | "text" | "password";
+  type: "email" | "text" | "password" | "number";
   placeholder: string;
   containerStyle?: string;
   inputStyle?: string;

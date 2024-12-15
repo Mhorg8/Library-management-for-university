@@ -57,6 +57,12 @@
   .book__card-text {
     @apply text-sm font-bold;
   }
+  .user__card-wrapper {
+    @apply w-[350px] md:w-[600px] h-[400px] md:h-[500px] bg-softGray rounded-xl flex items-center justify-between flex-col md:flex-row;
+  }
+  .user__card-image-box {
+    @apply w-full h-full md:h-2/3 rounded-s-xl absolute md:top-1/2 md:-translate-y-1/2 md:-right-[30%] flex items-center justify-center;
+  }
 }
 
 @layer base {
