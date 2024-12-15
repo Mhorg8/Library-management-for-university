@@ -16,8 +16,8 @@ datasource db {
 
 model User {
   id String @id @default(cuid()) @map("_id")
-  username String @db.VarChar(255)
-  email String @unique @db.VarChar(255)
-  password String @db.VarChar(255)
-  isAdmin Boolean @default(false)
+  PhoneNumber String @unique
+  FirstName String 
+  LastName String
+  Password String
 }

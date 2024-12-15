@@ -1,26 +1,33 @@
+"use client";
 import Link from "next/link";
 import Input from "./Input";
 import PrimaryButton from "./PrimaryButton";
-import { registerUser } from "../actions";
+import { registerUser } from "@/hooks/registerUser";
 
 const RegisterForm = () => {
   return (
-    <form action={registerUser} className="form">
+    <form onSubmit={registerUser} className="form">
       <Input
-        label="تفلن همراه"
-        name="phoneNumber"
-        placeholder="09334055539"
-        type="text"
-      />
-      <Input
-        label="کد دانشجویی"
-        name="studentUid"
+        label="نام"
+        name="Firstname"
         placeholder="40057741054019"
         type="text"
       />
       <Input
+        label="نام خانوادگی"
+        name="Lastname"
+        placeholder="40057741054019"
+        type="text"
+      />
+      <Input
+        label="تلفن همراه"
+        name="PhoneNumber"
+        placeholder="09334055539"
+        type="text"
+      />
+      <Input
         label="کلمه عبور"
-        name="password"
+        name="Password"
         placeholder="********"
         type="password"
       />
@@ -30,14 +37,11 @@ const RegisterForm = () => {
           ورود
         </Link>
       </div>
-
       <PrimaryButton
         type="submit"
         text="ایجاد"
         customStyle="py-3 active:bg-success"
       />
-
-      <p className="text-darkGray">قوانین و مقررات</p>
     </form>
   );
 };

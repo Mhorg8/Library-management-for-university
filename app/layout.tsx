@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/header/Header";
+import { Toaster } from "./components/ui/toaster";
 
 const rokhFont = localFont({
   src: [
@@ -42,6 +43,7 @@ export default function RootLayout({
     <html lang="en" dir="rtl">
       <body className={`${rokhFont.className} font-normal antialiased`}>
         <Header />
+        <Toaster />
         {children}
       </body>
     </html>

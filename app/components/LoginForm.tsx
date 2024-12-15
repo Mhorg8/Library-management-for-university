@@ -8,15 +8,15 @@ const LoginForm = () => {
     <form action="" className="form">
       <Input
         type="text"
-        label="کد داتشجویی"
-        placeholder="40057741054019"
-        name="studentUID"
+        label="شماره تلفن"
+        placeholder="09334055539"
+        name="PhoneNumber"
       />
       <Input
         type="password"
         label="رمزعبور"
         placeholder="********"
-        name="password"
+        name="Password"
       />
       {/*forward user to register page  */}
       <div className="flex gap-x-2 text-sm">

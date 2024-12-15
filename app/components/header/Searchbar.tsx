@@ -2,7 +2,7 @@
 import { FormEvent, useRef, useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import { motion } from "framer-motion";
-import { updateUrl } from "@/app/hooks/updateUrl";
+import { updateUrl } from "@/hooks/updateUrl";
 import { useRouter } from "next/navigation";
 
 const Searchbar = () => {

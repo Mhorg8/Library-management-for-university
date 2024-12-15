@@ -4,7 +4,7 @@ import Logo from "./Logo";
 import PrimaryButton from "../PrimaryButton";
 import { MdMenu } from "react-icons/md";
 import NavbarMenu from "./NavbarMenu";
-import useScrollHeight from "@/app/hooks/setScrollSize";
+import useScrollHeight from "@/hooks/setScrollSize";
 import MobileMenu from "./MobileMenu";
 import Searchbar from "./Searchbar";
 
