@@ -16,7 +16,7 @@ const Charts = () => {
     },
   };
   return (
-    <div className="w-full container bg-neutral-100 mt-20 py-10">
+    <div className="w-full container bg-neutral-100 mt-20 py-10 h-full">
       <h2 className="text-3xl md:text-4xl text-primaryColor font-bold  mb-10">
         آمار سایت
       </h2>

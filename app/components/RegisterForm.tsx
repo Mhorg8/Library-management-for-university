@@ -7,6 +7,7 @@ import { registerUser } from "@/hooks/registerUser";
 const RegisterForm = () => {
   return (
     <form onSubmit={registerUser} className="form">
+
       <Input
         label="نام"
         name="Firstname"

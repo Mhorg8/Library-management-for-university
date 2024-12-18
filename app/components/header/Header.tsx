@@ -46,7 +46,12 @@ const Header = () => {
 
         {/* mobile screen menu */}
         <div className="flex md:hidden gap-x-5">
-          <PrimaryButton type="button" text="ورود | خروج" />
+          <PrimaryButton
+            link
+            path="/auth/signup"
+            type="button"
+            text="ورود | خروج"
+          />
           <button
             onClick={() => setOpenMenu(!openMenu)}
             className="bg-primaryColor text-white px-3 py-2 rounded-lg z-[20]"
@@ -55,7 +60,7 @@ const Header = () => {
           </button>
         </div>
 
-        {openMenu && <MobileMenu />}
+        {openMenu && <MobileMenu setOpenMenu={setOpenMenu} />}
       </nav>
     </div>
   );
